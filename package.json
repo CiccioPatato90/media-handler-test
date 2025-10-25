@@ -18,7 +18,11 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^4.18.2",
-    "sharp": "^0.34.4"
+    "garage_administration_api": "git+https://git.deuxfleurs.fr/garage-sdk/garage-admin-sdk-js.git",
+    "jose": "^6.1.0",
+    "minio": "^8.0.6",
+    "sharp": "^0.34.4",
+    "valibot": "^1.1.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
