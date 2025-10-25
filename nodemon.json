@@ -1,0 +1,18 @@
+{
+    "watch": [
+        "server.js",
+        "MediaService.js",
+        "sharp.js"
+    ],
+    "ext": "js,json",
+    "ignore": [
+        "node_modules/",
+        "images*/",
+        "docs/",
+        "download_random_img/"
+    ],
+    "exec": "node server.js",
+    "env": {
+        "NODE_ENV": "development"
+    }
+}
